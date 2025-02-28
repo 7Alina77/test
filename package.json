@@ -1,0 +1,17 @@
+{
+  "name": "seminarsapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --prefix client",
+    "start": "concurrently \"npm run start --prefix app\" \"npm run start --prefix server\"",
+    "build": "npm run build --prefix app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
